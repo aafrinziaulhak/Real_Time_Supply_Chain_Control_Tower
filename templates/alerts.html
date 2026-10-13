@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alerts - Supply Chain Control Tower</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<div class="simple-page">
+  <div class="simple-top"><a href="/dashboard">← Dashboard</a><span class="live-pill"><i></i> LIVE</span></div>
+  <div class="simple-card">
+    <h1>Alerts</h1>
+    <p>Real-time alerts module of the Supply Chain Control Tower.</p>
+    <div class="simple-grid">
+      <div><b>Live Status</b><span>Operational</span></div>
+      <div><b>Last Sync</b><span id="pageTime">Now</span></div>
+      <div><b>Data Source</b><span>SQLite + Socket.IO</span></div>
+    </div>
+    <a class="back-btn" href="/dashboard">Open Live Dashboard</a>
+  </div>
+</div>
+<script>
+setInterval(()=>document.getElementById('pageTime').textContent=new Date().toLocaleTimeString(),1000);
+</script>
+</body></html>

@@ -1,0 +1,4 @@
+product,warehouse,stock,reorder_level,status
+Product P-104,Chennai,85,100,Low Stock
+Product P-205,Bengaluru,120,130,Low Stock
+Product P-302,Mumbai,45,80,Critical

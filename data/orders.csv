@@ -1,0 +1,4 @@
+order_id,customer,product,warehouse,quantity,status,order_time
+ORD-10045,TechMart,Laptop,Chennai,10,Shipped,10:43:00
+ORD-10046,GadgetHub,Monitor,Bengaluru,15,Processing,10:42:00
+ORD-10047,MegaStore,Keyboard,Mumbai,25,Processing,10:40:00

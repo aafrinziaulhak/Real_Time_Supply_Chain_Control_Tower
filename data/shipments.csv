@@ -1,0 +1,4 @@
+shipment_id,origin,destination,status,delay_minutes
+SH-1047,Delhi,Hyderabad,Delayed,135
+SH-1051,Kolkata,Guwahati,Delayed,105
+SH-1056,Mumbai,Indore,Delayed,80
